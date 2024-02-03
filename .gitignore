@@ -129,4 +129,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 venv/
+__pycache__/
 .DS_Store
