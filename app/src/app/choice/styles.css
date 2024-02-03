@@ -36,7 +36,6 @@
 .header-2 {
   font-family: "Playfair Display";
   font-size: 56px;
-  colour: #000000;
   display: flex;
   justify-content: center;
 }
@@ -66,7 +65,5 @@
 }
 
 .btn-text {
-  font-family: "Playfair Display";
   font-size: 56px;
-  colour: #000000;
 }
