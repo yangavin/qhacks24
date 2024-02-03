@@ -1,0 +1,10 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(58, 54, 255, 1) 0%,
+    rgba(255, 188, 188, 1) 100%
+  );
+  color: white;
+}
