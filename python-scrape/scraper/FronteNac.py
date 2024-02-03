@@ -35,6 +35,10 @@ def scrape_frontenac(url):
             if image_img and image_img.has_attr('src'):
                 property_dict["image_url"] = image_img['src']
 
+            web_link = article.find('a')
+            if web_link and web_link.has_attr('href'):
+                property_dict["house_link"] = web_link['href']
+
             frontenac_properties.append(property_dict) 
 
     return frontenac_properties
