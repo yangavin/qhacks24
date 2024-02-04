@@ -1,4 +1,4 @@
-import Listing from "./Listing";
+import NativeListing from "./Listing";
 import Header from "./Header";
 import Secondary from "./Header-Secondary";
 
@@ -11,7 +11,7 @@ export default function Page() {
       <div>
         <Secondary />
       </div>
-      <Listing />
+      <NativeListing />
     </>
   );
 }

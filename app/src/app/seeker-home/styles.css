@@ -1,11 +1,11 @@
 header.top {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 0.5) 0%,
     rgba(58, 54, 255, 0.5) 0%,
     rgba(255, 188, 188, 0.5) 100%
-  );
+  ); */
   color: black;
 }
 
