@@ -1,6 +1,5 @@
 import "./styles.css";
 import { Buttons } from "./buttons";
-
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 
 export default withPageAuthRequired(

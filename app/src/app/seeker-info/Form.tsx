@@ -1,4 +1,5 @@
 import { Header } from "./Header";
+import { redirect } from "next/navigation";
 
 export function Form() {
   return (
@@ -22,7 +23,7 @@ export function Form() {
           </label>
           <input
             className="input-spacing"
-            type="text"
+            type="number"
             id="age"
             name="age"
             required
@@ -92,10 +93,9 @@ export function Form() {
             <option value="option-3">10km-15km</option>
             <option value="option-4">More Than 15km</option>
           </select>
-
-          <button className="submission-button" type="submit">
+          <a href="/seeker-home" className="submission-button">
             Submit
-          </button>
+          </a>
         </div>
       </form>
     </>

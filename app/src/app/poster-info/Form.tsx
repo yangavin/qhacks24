@@ -70,6 +70,26 @@ export function Form() {
             <option value="option-5">More Than $1050</option>
           </select>
 
+          <label htmlFor="bedroom" className="text-label">
+            Bedroom No.
+          </label>
+          <select id="bedroom" name="bedroom">
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4+</option>
+          </select>
+
+          <label htmlFor="bathroom" className="text-label">
+            Bathroom No.
+          </label>
+          <select id="bathroom" name="bathroom">
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4+</option>
+          </select>
+
           <label htmlFor="choose-file" className="text-label">
             Upload Pictures
           </label>
@@ -101,9 +121,9 @@ export function Form() {
             <option value="no">No</option>
           </select>
 
-          <button className="submission-button" type="submit">
+          <a href="/poster-home" className="submission-button" type="submit">
             Submit
-          </button>
+          </a>
         </div>
       </form>
     </>
