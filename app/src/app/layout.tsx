@@ -6,7 +6,7 @@ import { UserProvider } from "@auth0/nextjs-auth0/client";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Housify",
+  title: "Room For One",
   description:
     "Unlock Your Ideal Home: Connect, Explore, Thrive! Welcome to Housify, Where Queen's Students and Landlords Come Together to List and Find the Perfect Living Spaces!",
 };
