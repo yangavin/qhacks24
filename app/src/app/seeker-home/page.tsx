@@ -1,5 +1,6 @@
 "use client";
 import NativeListing from "./NativeListing";
+import ExternalListing from "./ExternalListing";
 import Header from "./Header";
 import Secondary from "./Header-Secondary";
 import { useState } from "react";
@@ -14,7 +15,7 @@ export default function Page() {
       <div>
         <Secondary />
       </div>
-      {native ? <NativeListing /> : <div>Web Listing</div>}
+      {native ? <NativeListing /> : <ExternalListing></ExternalListing>}
     </>
   );
 }
