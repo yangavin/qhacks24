@@ -22,7 +22,7 @@ export function Form() {
           </label>
           <input
             className="input-spacing"
-            type="text"
+            type="number"
             id="age"
             name="age"
             required
