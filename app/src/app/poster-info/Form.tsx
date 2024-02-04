@@ -101,9 +101,9 @@ export function Form() {
             <option value="no">No</option>
           </select>
 
-          <button className="submission-button" type="submit">
+          <a href="/poster-home" className="submission-button" type="submit">
             Submit
-          </button>
+          </a>
         </div>
       </form>
     </>
