@@ -26,28 +26,32 @@
 }
 
 .header-1 {
-  font-family: "Playfair Display";
-  font-size: 96px;
-  color: #df9494;
+  font-family: "Roboto", sans-serif;
+  font-size: 86px;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
+  font-weight: 700;
+  margin-top: 30px;
 }
 
 .header-2 {
-  font-family: "Playfair Display";
-  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 46px;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
+  font-weight: 500;
 }
 
 .button-container {
   display: flex;
-  justify-content: center;
-  gap: 20px; /* Optional: Adds equal space between buttons */
+  justify-content: center; 
+  gap: 90px; 
 }
 
 .btn {
-  background: #d9d9d9;
+  background: rgba(217, 217, 217, 0.5);
   border-radius: 0.25em;
   cursor: pointer;
   outline: none;
@@ -57,6 +61,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
+ 
 }
 
 .btn:hover,
@@ -66,4 +72,15 @@
 
 .btn-text {
   font-size: 56px;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(58, 54, 255, 1) 0%,
+    rgba(255, 188, 188, 1) 100%
+  );
+
+
 }
