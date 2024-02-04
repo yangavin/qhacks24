@@ -2,14 +2,14 @@ export default function Secondary() {
   return (
     <header className="sub">
       <div>
-        <label htmlFor="gender" className="text-label">
-          Gender
+        <label htmlFor="bedroom" className="text-label">
+          Bedroom No.
         </label>
-        <select id="gender" name="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-          <option value="prefer-not-to-say">Prefer Not to Say</option>
+        <select id="bedroom" name="bedroom">
+          <option value="option1">1</option>
+          <option value="option2">2</option>
+          <option value="option3">3</option>
+          <option value="option4">4+</option>
         </select>
       </div>
 
