@@ -13,7 +13,7 @@ type Listing = {
 export default function ExternalListing() {
   const [listings, setListings] = useState<Listing[]>([]);
   useEffect(() => {
-    fetch(process.env.NEXT_PUBLIC_WEB_SCRAPE_URL as string)
+    fetch(process.env.NEXT_PUBLIC_WEB_SCRAPE_URL as string, { mode: "no-cors" })
       .then((response) => response.json())
       .then((data: Listing[]) => setListings(data));
   });
