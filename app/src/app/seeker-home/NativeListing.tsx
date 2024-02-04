@@ -1,4 +1,4 @@
-import ListingItem from "./ListingItem";
+import ListingItem from "./NativeListingItem";
 
 export default function NativeListing() {
   // Will pass props of posting info, must map for each and put into ListingItem

@@ -1,17 +1,20 @@
-import NativeListing from "./Listing";
+"use client";
+import NativeListing from "./NativeListing";
 import Header from "./Header";
 import Secondary from "./Header-Secondary";
+import { useState } from "react";
 
 export default function Page() {
+  const [native, setNative] = useState(true);
   return (
     <>
       <div>
-        <Header />
+        <Header setNative={setNative} />
       </div>
       <div>
         <Secondary />
       </div>
-      <NativeListing />
+      {native ? <NativeListing /> : <div>Web Listing</div>}
     </>
   );
 }
