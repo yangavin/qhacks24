@@ -16,10 +16,7 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-14">
-        <a
-          href="/api/auth/login"
-          className="bg-blue-400 rounded-md py-3 text-2xl px-6"
-        >
+        <a href="/choice" className="bg-blue-400 rounded-md py-3 text-2xl px-6">
           Get Started
         </a>
       </div>
