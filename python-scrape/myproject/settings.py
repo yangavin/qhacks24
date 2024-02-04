@@ -133,5 +133,5 @@ CORS_ALLOWED_ORIGINS = [
 ALLOWED_HOSTS = [
     "https://qhacks24-git-main-yangavin.vercel.app/",
     "159.203.17.167",
-    "localhost",
+    "127.0.0.1",
 ]
