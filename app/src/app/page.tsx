@@ -5,19 +5,22 @@ export default function Home() {
   return (
     <div className="p-20">
       <div className="flex flex-col gap-16">
-        <h1 className="text-9xl">Need One More?</h1>
+        <h1 className="text-8xl">Room For One</h1>
         <div>
           <h2 className="text-6xl underline">Find Listings</h2>
           <h2 className="text-6xl underline">Connect with Students</h2>
         </div>
-        <p className="text-4xl max-w-[35ch]">
+        <p className="text-4xl max-w-[30ch]">
           Unlock Your Ideal Home: Welcome to Housify, Where Queen&apos;s
           Students Come Together to List and Find the Perfect Living Spaces!
         </p>
-        <button className="bg-blue-400 rounded-md text-5xl p-4 mt-4 w-2/5">
-          Get Started
-        </button>
       </div>
+      <a
+        href="/api/auth/login"
+        className="bg-blue-400 rounded-md p-3 mt-10 text-2xl"
+      >
+        Get Started
+      </a>
       <div className="absolute right-0 top-20">
         <Image
           src="person-sitting.svg"
