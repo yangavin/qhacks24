@@ -1,0 +1,73 @@
+header.top {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.5) 0%,
+    rgba(58, 54, 255, 0.5) 0%,
+    rgba(255, 188, 188, 0.5) 100%
+  );
+  color: black;
+}
+
+header.top {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px;
+}
+
+header.sub {
+  display: flex;
+  justify-content: space-between;
+  top: 100;
+  width: 100%;
+  padding: 150px;
+}
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+}
+
+select {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.listing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.listing-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.listing-card h2,
+.listing-card p {
+  margin: 10px 0;
+}
+
+img.general {
+  height: 55px;
+  width: 55px;
+}
+
+button.general {
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+}
