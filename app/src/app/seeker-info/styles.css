@@ -1,0 +1,85 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.5) 0%,
+    rgba(58, 54, 255, 0.5) 0%,
+    rgba(255, 188, 188, 0.5) 100%
+  );
+  color: black;
+}
+
+.backdrop {
+  background-color: white;
+  height: 957px;
+  width: 457px;
+  padding: 50px 0px 0px 100px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-right: auto;
+}
+
+label {
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+select {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.submission-button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.header-1 {
+  font-family: "Roboto";
+  font-size: 24px;
+  colour: #000000;
+}
+
+.text-label {
+  font-family: "Roboto";
+  font-size: 15px;
+  colour: #000000;
+}
+
+.input-spacing {
+  padding: 0px, 20px, 0px, 0px;
+}
