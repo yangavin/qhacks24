@@ -129,6 +129,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://qhacks24-snowy.vercel.app/",
+    "https://qhacks24-snowy.vercel.app",
 ]
 ALLOWED_HOSTS = ["localhost", "urchin-app-3r2au.ondigitalocean.app"]
