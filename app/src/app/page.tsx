@@ -15,12 +15,14 @@ export default function Home() {
           Students Come Together to List and Find the Perfect Living Spaces!
         </p>
       </div>
-      <a
-        href="/api/auth/login"
-        className="bg-blue-400 rounded-md p-3 mt-10 text-2xl"
-      >
-        Get Started
-      </a>
+      <div className="mt-14">
+        <a
+          href="/api/auth/login"
+          className="bg-blue-400 rounded-md py-3 text-2xl px-6"
+        >
+          Get Started
+        </a>
+      </div>
       <div className="absolute right-0 top-20">
         <Image
           src="person-sitting.svg"
