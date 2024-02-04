@@ -131,4 +131,4 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://qhacks24-git-main-yangavin.vercel.app",
 ]
-ALLOWED_HOSTS = ["localhost", "https://urchin-app-3r2au.ondigitalocean.app/"]
+ALLOWED_HOSTS = ["localhost", "urchin-app-3r2au.ondigitalocean.app"]
