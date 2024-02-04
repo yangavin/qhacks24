@@ -130,4 +130,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
-ALLOWED_HOSTS = ["https://qhacks24-git-main-yangavin.vercel.app/", "159.203.17.167"]
+ALLOWED_HOSTS = [
+    "https://qhacks24-git-main-yangavin.vercel.app/",
+    "159.203.17.167",
+    "localhost",
+]
