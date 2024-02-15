@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-64j-54w8f*yb54el1taqux3+y9g*nfr734jujlj5aaikdx)-7_"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -127,8 +127,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://qhacks24-snowy.vercel.app",
-]
-ALLOWED_HOSTS = ["localhost", "urchin-app-3r2au.ondigitalocean.app"]
+CORS_ALLOW_ALL_ORIGINS = True
+
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split(",")
+ALLOWED_HOSTS.append("localhost")
